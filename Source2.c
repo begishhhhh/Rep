@@ -7,7 +7,6 @@ int main()
 	scanf_s("%d %d", &a, &b);
 	c = a + b;
 	d = a * b;
-	printf("%d\n", c);
-	printf("%d\n", d);
+	printf("%d %d\n", c, d);
 	return 0;
 }
